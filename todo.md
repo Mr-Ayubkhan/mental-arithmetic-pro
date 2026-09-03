@@ -25,3 +25,25 @@
 - [x] Auth modalga loading, auth error va qayta urinish/qaytish holatlarini qo‘shish.
 - [x] Desktop + mobile + keyboard bo‘yicha auth modal, O‘rgatish sahifasi va asosiy user-flowlarni amaliy tekshirish.
 - [x] So‘nggi auth va O‘rgatish o‘zgarishlaridan keyin yangi checkpoint saqlash.
+- [x] Dars yakunidan keyin diagnostik test oqimi va test natijalari modelini belgilash.
+- [x] Test javoblarini serverga yuborish va AI daraja tavsiyasi endpointini qo‘shish.
+- [x] Luxury test oynasi: timer, progress, savol navigatsiyasi va klaviatura boshqaruvini yaratish.
+- [x] AI natija kartasi: aniqlik, tezlik, kuchli tomonlar, keyingi reja va daraja tavsiyasini ko‘rsatish.
+- [x] Foydali funksiyalar: kunlik mikro-maqsad, xatolar daftari, zaif mavzu tavsiyasi va progress streakini qo‘shish.
+- [x] AI integratsiyasi va test oqimini Vitest bilan tekshirish.
+- [x] Desktop/mobile vizual tekshiruv, production build va yangi checkpoint.
+- [x] Luxury testga aniq savol navigatsiyasi: oldingi/keyingi va savollar indikatorlarini qo‘shish.
+- [x] Xatolar daftari hamda test natijasiga bog‘langan real progress streak/mikro-maqsad funksiyalarini implement qilish.
+- [x] Diagnostics AI endpointi uchun success-path Vitest testi va JSON parsing tekshiruvini qo‘shish.
+- [x] Yangi diagnostik/test UI uchun mobil vizual tekshiruvni bajarish va yakuniy checkpoint saqlash.
+- [x] Luxury testda alohida Keyingi navigatsiya boshqaruvini qo‘shish yoki requirementni qoplaydigan savol o‘tish UI sini implement qilish.
+- [x] Diagnostik natijaga bog‘langan haqiqiy mikro-maqsad va streak state/logic sini qo‘shish hamda UI’da ko‘rsatish.
+- [x] diagnostics.assess uchun AI success-path Vitest yozib, JSON parsing va qaytgan maydonlarni tekshirish.
+- [x] Mobil viewportda diagnostik test va natija ekranlari uchun state-specific screenshot/tekshiruv olish, so‘ng hozirgi holat uchun yangi checkpoint saqlash.
+- [x] Diagnostik natijaga qarab hisoblanadigan real mikro-maqsad logikasini qo‘shish va uni natija UI’da ko‘rsatish.
+- [x] Test streakni haqiqiy progress bilan bog‘lash, natija oqimida aniq state logic bilan isbotlash.
+- [x] Diagnostik test va natija ekranlarini alohida mobile state sifatida tekshirish.
+- [x] So‘nggi diagnostik/test o‘zgarishlaridan keyin yangi checkpoint saqlash.
+- [x] Diagnostik test ekranini mobile viewportda ochib, state-specific screenshot/verification olish.
+- [x] Diagnostik natija ekranini mobile viewportda ochib, state-specific screenshot/verification olish.
+- [x] So‘nggi diagnostik/test o‘zgarishlaridan keyin yangi checkpoint saqlash va aynan shu versiyani topshirish.
