@@ -6,7 +6,8 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import SubjectPage from "./pages/SubjectPage";
-import Teach from "./pages/Teach";
+import Teach from "@/pages/Teach";
+import GeometryGlossary from "@/pages/GeometryGlossary";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/geometriya"} component={() => <SubjectPage subject="geometriya" />} />
       <Route path={"/trigonometriya"} component={() => <SubjectPage subject="trig" />} />
       <Route path={"/orgatish"} component={Teach} />
+      <Route path={"/geometriya-lugati"} component={GeometryGlossary} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

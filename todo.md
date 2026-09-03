@@ -65,3 +65,23 @@
 - [x] Keyboard user-flow tekshiruvini dalillash va so‘ng yangi checkpoint saqlash.
 - [x] Geometriya, algebra va trigonometriya sahifalarida keyboard-only user-flowni amalda tekshirib, dalil qoldirish.
 - [x] So‘nggi geometriya, age-profile va level-up o‘zgarishlaridan keyin yangi checkpoint saqlash.
+- [x] Har bir mashq sessionida ishlatilgan savollarni saqlab, takroriy savollarni chiqarib tashlash.
+- [x] Savol banki tugaganda foydalanuvchiga yangi session boshlash yoki bankni yangilash holatini ko‘rsatish.
+- [x] Noto‘g‘ri javobda to‘g‘ri javob, formula va bosqichma-bosqich tahlilni ko‘rsatish.
+- [x] Geometriya atamalari va tushunchalari uchun alohida route/oyna yaratish.
+- [x] Lug‘atga qidiruv, kategoriya filteri, ta’rif, formula va amaliy misol qo‘shish.
+- [x] Mashq, lug‘at va natija ekranlarini qulay zamonaviy responsive dizayn bilan sayqallash.
+- [x] Takrorlanmaslik, xato tahlili va geometriya lug‘ati uchun Vitest testlari yozish.
+- [x] Desktop/mobile/keyboard vizual tekshiruv, production build va yangi checkpoint.
+- [x] Mobil previewda uzun Trigonometriya sarlavhasi overflowini tuzatish va lug‘at filterlarini qulay scroll qilish.
+- [x] Overflow tuzatishidan keyin desktop/mobile vizual tekshiruv, full test/build va yangi checkpoint.
+- [x] Savol banki tugaganda aniq empty/end-of-session UI qo‘shish: yangi session boshlash va savollarni yangilash actionlari bilan.
+- [x] Home va subject oqimlarida noto‘g‘ri javob uchun standart formula satri va bosqichma-bosqich tahlilni ko‘rsatish.
+- [x] Teach/diagnostic natija ekranlarini yangilangan premium dizayn bilan sayqallash va responsive tekshirish.
+- [x] Geometriya lug‘ati qidiruv/filteri va xato tahlili logic/UI uchun qo‘shimcha Vitest testlari yozish.
+- [x] Yangilangan Home, Subject va glossary oqimlarida keyboard verificationni qayta bajarish.
+- [x] So‘nggi o‘zgarishlardan keyin full test/build, desktop/mobile preview va yangi checkpoint.
+- [x] Home’dagi end-of-session “Savollarni yangilash” actionini state-safe qilib tuzatish.
+- [x] SubjectPage’da “Mavzuni yangilash” uchun usedIds va session state’ni haqiqiy reset qilish.
+- [x] Teach diagnostik natija ekranining desktop va mobile screenshot/verifikatsiyasini ayni so‘nggi UI bilan olish.
+- [x] So‘nggi o‘zgarishlardan keyin full check/test/build va yangi checkpoint saqlash.
