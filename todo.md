@@ -13,3 +13,15 @@
 - [x] Sign up uchun alohida autentifikatsiya flowini haqiqatan ishga tushirish yoki OAuth portalning sign-up supportini kod/UI orqali isbotlash.
 - [x] Mobil viewportlardan tashqari keyboard navigation va asosiy user-flowlarni amalda tekshirib, natijaga mos kod/yoki dalil qo‘shish.
 - [x] Premium yangilanishlardan keyin yangi yakuniy checkpoint saqlash va aynan shu versiyani foydalanuvchiga topshirish.
+- [x] Login va sign up tugmalarining amaldagi OAuth oqimini diagnostika qilish.
+- [x] Login/sign up redirect, portal parametrlari va auth holatini tuzatish.
+- [x] Auth modalida foydalanuvchiga tushunarli xato, loading va qaytish holatlarini qo‘shish.
+- [x] O‘rgatish bo‘limi uchun alohida route va premium navigatsiya entry point yaratish.
+- [x] Mental arifmetika qoidalarini bosqichma-bosqich tushuntiruvchi darslar qo‘shish.
+- [x] Namuna, bosqichli ko‘rsatma va dars yakunidagi amaliy mini-mashqni qo‘shish.
+- [x] Auth va O‘rgatish oqimlarini desktop, mobil va keyboard holatlarida tekshirish.
+- [x] Yangilangan versiya uchun testlar, build va checkpointni bajarish.
+- [x] Login/sign-up redirectdan keyin auth callback va useAuth() holati haqiqatan ishlashini brauzer oqimida tekshirib, dalil qoldirish.
+- [x] Auth modalga loading, auth error va qayta urinish/qaytish holatlarini qo‘shish.
+- [x] Desktop + mobile + keyboard bo‘yicha auth modal, O‘rgatish sahifasi va asosiy user-flowlarni amaliy tekshirish.
+- [x] So‘nggi auth va O‘rgatish o‘zgarishlaridan keyin yangi checkpoint saqlash.
