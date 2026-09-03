@@ -77,6 +77,15 @@ export async function upsertUser(user: InsertUser): Promise<void> {
   }
 }
 
+export async function updateUserAge(userId: number, age: number): Promise<void> {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot update age: database not available");
+    return;
+  }
+  await db.update(users).set({ age }).where(eq(users.id, userId));
+}
+
 export async function getUserByOpenId(openId: string) {
   const db = await getDb();
   if (!db) {

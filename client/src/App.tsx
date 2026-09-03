@@ -15,6 +15,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/algebra"} component={() => <SubjectPage subject="algebra" />} />
       <Route path={"/geometriya"} component={() => <SubjectPage subject="geometriya" />} />
+      <Route path={"/trigonometriya"} component={() => <SubjectPage subject="trig" />} />
       <Route path={"/orgatish"} component={Teach} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

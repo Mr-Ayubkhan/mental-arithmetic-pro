@@ -8,6 +8,13 @@
       "when": 1788426665283,
       "tag": "0000_mature_shape",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1788434347540,
+      "tag": "0001_pale_deathbird",
+      "breakpoints": true
     }
   ]
 }

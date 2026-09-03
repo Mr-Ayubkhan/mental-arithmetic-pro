@@ -3,7 +3,8 @@ import { invokeLLM } from "./_core/llm";
 import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
-import { publicProcedure, router } from "./_core/trpc";
+import { protectedProcedure, publicProcedure, router } from "./_core/trpc";
+import { updateUserAge } from "./db";
 
 const diagnosticResultSchema = {
   type: "object",
@@ -28,6 +29,14 @@ export const appRouter = router({
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
     }),
+  }),
+  profile: router({
+    setAge: protectedProcedure
+      .input(z.object({ age: z.number().int().min(6).max(100) }))
+      .mutation(async ({ ctx, input }) => {
+        await updateUserAge(ctx.user.id, input.age);
+        return { success: true, age: input.age } as const;
+      }),
   }),
   diagnostics: router({
     assess: publicProcedure

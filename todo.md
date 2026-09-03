@@ -47,3 +47,21 @@
 - [x] Diagnostik test ekranini mobile viewportda ochib, state-specific screenshot/verification olish.
 - [x] Diagnostik natija ekranini mobile viewportda ochib, state-specific screenshot/verification olish.
 - [x] So‘nggi diagnostik/test o‘zgarishlaridan keyin yangi checkpoint saqlash va aynan shu versiyani topshirish.
+- [x] Geometriya route/page va savol generatorini tekshirib, ishlamaydigan javob oqimini tuzatish.
+- [x] Ishlaydigan geometriya savollari: perimetr, yuza, burchak va Pifagor mavzularini qo‘shish.
+- [x] Kattalar uchun sinus, kosinus, tangens va kotangens kataloglarini qo‘shish.
+- [x] Ro‘yxatdan o‘tish profilida yoshni so‘rash va yosh guruhini saqlash oqimini loyihalash.
+- [x] Yosh guruhiga mos savol murakkabligi va mavzu tavsiyalarini yaratish.
+- [x] To‘g‘ri javob, aniqlik va streak asosida level-up state/logicini qo‘shish.
+- [x] Level-up’dan keyin kataloglarni bosqichma-bosqich unlock qilish.
+- [x] Premium katalog UX: locked/unlocked holat, talablar, badge va progress ko‘rsatkichlarini qo‘shish.
+- [x] Geometriya, trigonometriya, yosh profili va unlock oqimlari uchun Vitest testlari yozish.
+- [x] Desktop/mobile/keyboard tekshiruv, production build va yangi checkpoint.
+- [x] Geometriya uchun alohida perimetr savolini qo‘shish va javob oqimini tekshirish.
+- [x] Yoshni signupdan keyin foydalanuvchi profiliga bog‘langan persistent profile flowini qo‘shish.
+- [x] Yosh guruhiga mos mavzu tavsiyalari UI/logicini qo‘shish.
+- [x] Level-up hisobini solved + accuracy + streak kombinatsiyasiga bog‘lash.
+- [x] Geometriya, trigonometriya, age-profile va unlock logic uchun Vitest testlari yozish.
+- [x] Keyboard user-flow tekshiruvini dalillash va so‘ng yangi checkpoint saqlash.
+- [x] Geometriya, algebra va trigonometriya sahifalarida keyboard-only user-flowni amalda tekshirib, dalil qoldirish.
+- [x] So‘nggi geometriya, age-profile va level-up o‘zgarishlaridan keyin yangi checkpoint saqlash.
